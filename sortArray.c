@@ -2,9 +2,9 @@
 
 void sort(int numbers[], int size)
 {
-    for (int i = 0; i < size - i; i++)
+    for (int i = 0; i < size - i ; i++)
     {
-        for (int j = 0; j < size - i ; j++)
+        for (int j = 0; j - i - 1 < size  ; j++)
         {
             if (numbers[j] > numbers[j + 1])
 
@@ -34,7 +34,7 @@ void sort(int numbers[], int size)
 
     {
 
-        int numbers[] = {3, 9, 4, 7, 1, 2, 8, 6, 5};
+        int numbers[] = {4, 7, 1, 2, 8, 6, 5};
         char letters[] = {'Z', 'A', 'D', 'G', 'Q'};
         int size = sizeof(numbers) / sizeof(numbers[0]);
 

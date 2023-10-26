@@ -4,14 +4,6 @@ int main()
 
 {
     int numbers[3][4];
-
-
-    int rows = sizeof(numbers) / sizeof(numbers[0]);
-
-    int columns = sizeof(numbers[0]) / sizeof(numbers[0][0]);
-
-
-
     numbers[0][0] = 1;
 
     numbers[0][1] = 2;
@@ -36,12 +28,11 @@ int main()
 
     numbers[2][3] = 12;
 
-  
+    int rows = sizeof(numbers) / sizeof(numbers[0]);
 
-    
+    int columns = sizeof(numbers[0]) / sizeof(numbers[0][0]);
 
-    for (int i = 0; i < rows; i++)
-
+        for (int i = 0; i < rows; i++)
     {
         for (int j = 0; j < columns; j++)
         {
