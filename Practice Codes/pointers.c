@@ -31,7 +31,7 @@ int main()
     age = 18;
     pnum = &age;
 
-    try(age);
+    try(num1);
     printf("\n");
 
     pnum = &num1;
